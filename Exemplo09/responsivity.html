@@ -8,10 +8,10 @@
 <body>
     <h2>Agora com responsividade</h2>
     <picture>
-        <img src="image_G.png" alt="Grande">
-        <img src="image_M.png" alt="Média">
-        <img src="image_P.png" alt="Pequena">
+        <source media="(min-width: 1024px)" srcset="image_G.png">
+        <source media="(min-width: 600px)" srcset="image_M.png">
+        <img src="image_P.png" alt="Imagem responsiva">
     </picture>
-    <a href="index.html">voltar</a>
+    <p><a href="index.html">voltar</a></p>
 </body>
 </html>
